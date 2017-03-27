@@ -1,0 +1,35 @@
+#sidebar{
+    width: 370px;
+    height: 455px;
+    background: #fff;
+    float: left;
+    margin-top: 26px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+}
+#sidebar{
+    margin-top: 33px;
+}
+#sidebar li{
+    width: 370px;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    margin-bottom: 5px;
+}
+#sidebar li span{
+    position: absolute;
+    left: 163px;
+}
+.img-pos{
+    position: absolute;
+    left:120px;
+    top: 14px;
+}
+.color{
+    color: #78e5b5;
+}
+#sidebar li.left-sidebar-active{
+    color: #78e5b5;
+    background: url(../img/active_message.jpg) center right no-repeat;
+}

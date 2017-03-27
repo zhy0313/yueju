@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial,"微软雅黑";
+    font-size: 12px;
+    color: #434343;
+}
+#message-ul li{
+    width: 5.72rem;
+    height: 1.8rem;
+    padding-top: 0.29rem;
+    padding-left:0.33rem;
+}
+#message-ul li strong{
+    font-size: 0.26rem;
+    color: #40404f;
+}
+#message-ul li img{
+    height: 0.78rem;
+    width:0.78rem;
+}
+
+#message-content{
+    float: right;
+    width:4.65rem;
+    height: 1.8rem;
+    line-height: 0.31rem;
+    font-size: 0.22rem;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    line-height: 0.31rem;
+    color: #767171;
+}
+.message-time{
+    float: right;
+    margin-right: 0.12rem;
+}
+.message-bottom{
+    height: 0.13rem;
+    border-bottom: solid 0.01rem #e1e1e1;
+    border-top: solid 0.01rem #e1e1e1;
+    background: #f2f2f2;
+
+}

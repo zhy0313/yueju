@@ -1,0 +1,112 @@
+/*通用样式start*/
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+ul,ol{
+	list-style: none;
+}
+/*通用样式end*/
+
+/*内容start*/
+body{
+	background: #eff3f5;
+}
+.wrapper{
+	width: 1170px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*侧边栏样式start*/
+.side{
+	width: 370px;
+	height: 454px;
+	border: 0px;
+	display: inline-block;
+}
+/*侧边栏样式end*/
+
+.updated_pwd{
+	margin: 25px 0px;
+	height: 515px;
+}
+.pwd_container{
+	width: 770px;
+	height: 515px;
+	/*background: gray;*/
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.password_wrap{
+	width: 389px;
+	margin: 0px auto;
+}
+
+/*资料标题start*/
+.data_tit{
+	text-align: center;
+	color: #484e52;
+	font-size: 20px;
+	margin: 35px 0px;
+}
+/*资料标题end*/
+
+/*资料项start*/
+.info_tit{
+	color: #a2a2a2;
+	font-size: 16px;
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	margin-top: 0px;
+}
+/*资料项end*/
+
+/*提交按钮start*/
+.btn_submit{
+	height: 50px;
+	width: 387px;
+	font-size: 18px;
+	color: #ffffff;
+	background: #5be0a7;
+	border-radius: 3px;
+	letter-spacing: 20px;
+	border: 1px solid #e4f1ec;
+	margin-top: 30px;
+}
+/*提交按钮end*/
+
+/*输入框样式start*/
+input{
+	height: 43px;
+	background: #f5f5f5;
+	text-indent: 19px;
+	border: 1px solid #eff3f5;
+}
+/*输入框样式end*/
+
+.verified_tele{
+	color: #243930;
+	margin-left: 40px;
+}
+.verfied_num{
+	width: 262px;
+}
+.new_password{
+	width: 387px;
+}
+
+/*发送验证码按钮start*/
+.btn_verified{
+	width: 117px;
+	height: 45px;
+	border: 1px solid #58d7a0;
+	float: right;
+	background-color: #ffffff;
+}
+/*发送验证码按钮end*/
+
+/*内容end*/

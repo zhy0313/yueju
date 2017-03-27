@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ol,ul{
+    list-style: none;
+}
+.wrapper{
+    width:1170px;
+    margin: 0 auto;
+}

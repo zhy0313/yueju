@@ -1,0 +1,444 @@
+body{
+    background: #eff3f5;
+    font-family: 微软雅黑;
+}
+#room{
+    /*padding-top: 27px;*/
+    
+}
+a{
+    color: #000;
+}
+#room #particaulars{
+    width:770px;
+    /*padding-top:13px;*/
+    float: left;
+}
+#particaulars #information-img{
+    clear: both;
+    height: 416px;
+    position: relative;
+}
+/***************图片展示***************/
+#particaulars #information-img #small-house-img{
+    height:414px;
+    overflow: hidden;
+    width: 145px;
+    float: right;
+}
+#particaulars #information-img #small-house-img div{
+    position: relative;
+
+}
+#particaulars #information-img .small-img{
+    height: 90px;
+    width: 145px;
+    margin-top:14px;
+    float: right;
+    cursor: pointer;
+}
+#particaulars #information-img .small-img:first-child{
+    margin-top:0;
+}
+#particaulars #information-img .big-img:nth-child(2){
+    display: block;
+}
+#particaulars #information-img .small-img.select{
+    border: 5px #f40 solid;
+    width:135px;
+    /*margin-top:10px;*/
+    height: 80px;
+}
+#particaulars #information-img #big-house-img{
+    height: 414px;
+    width: 625px;
+    float: left;
+}
+#particaulars #information-img .big-img{
+    position: absolute;
+    /*margin-top:14px;*/
+    height: 402px;
+    width: 610px;
+    margin-right:15px;
+    display: none;
+
+}
+#up,#down{
+    display: none;
+    width: 145px;
+    height: 45px;
+    position: absolute;
+    right:0;
+    background: #fff url('../img/up.png') center no-repeat;
+    opacity: .7;
+    -webkit-background-size:100px 60px;
+    background-size:100px 60px;
+    cursor: pointer;
+}
+#up{
+    /*top:4px;*/
+}
+#particaulars #down{
+    bottom:14px;
+
+    background-image: url('../img/down.png');
+}
+#up:hover{
+    background-image: url('../img/up1.png');
+}
+#particaulars #down:hover{
+    background-image: url('../img/down1.png');
+}
+/*************房屋信息*******************/
+#particaulars #essential-information{
+    margin-top:24px;
+    padding:0 65px;
+    background: #fff;
+}
+#particaulars #essential-information #title{
+    font-size:24px;
+    padding-top:28px;
+    color: #2f403c;
+}
+#particaulars #essential-information #address{
+    font-size:16px;
+    color: #56615f;
+    padding: 10px 0;
+}
+#particaulars #essential-information .house-type{
+    padding-top:20px;
+    clear: both;
+}
+#particaulars #essential-information .type{
+    color: #7f7e90;
+    font-size:14px;
+    float: left;
+    display: inline-block;
+    width:181px;
+
+}
+#particaulars #essential-information .house-type div {
+    color: #424154;
+    font-size:14px;
+    width: 459px;
+    float: left;
+    padding-top:2px;
+}
+#particaulars #essential-information .house-type div>span{
+    width:224px;
+    display: inline-block;
+}
+#particaulars #essential-information .house-type div li{
+    float: left;
+    list-style:none;
+    /*width: 100px;*/
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+/**************基本信息和评价**************/
+#particaulars #content{
+    display: none;
+    width: 685px;
+    /*margin:0 auto;*/
+    margin-top:18px;
+}
+#particaulars #content img{
+    width: 685px;
+    height: 400px;
+}
+#particaulars #container{
+    background: #fff;
+    width: 685px;
+    padding-left:45px;
+    padding-right: 40px;
+    margin-top:25px;
+}
+#particaulars #content-conmment{
+    padding-top:15px;
+    padding-bottom:13px;
+    background: #fff;
+}
+#particaulars #content-conmment button{
+    width: 112px;
+    height: 33px;
+    font-size:14px;
+    line-height:33px;
+    color: #504e4e;
+    margin:0 5px;
+    margin-right:38px;
+    border:none;
+    background: none;
+}
+#particaulars #content-conmment button.select{
+    color: #0d846a;
+    border:1px #0d846a solid;
+    border-radius: 16.5px;
+}
+#conmment .conmment-contianer{
+    width: 685px;
+    height: 175px;
+    padding-top:24px;
+    padding-bottom:20px;
+    clear: both;
+}
+#conmment .conmment-contianer .user{
+    width: 75px;
+    float: left;
+    padding:0 52px;
+}
+#conmment .conmment-contianer .user img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    /*margin:0 auto;*/
+    /*margin-left:52px;*/
+    margin-bottom:13px;
+}
+#conmment .conmment-contianer .user p{
+    font-size:16px;
+    color: #858585;
+    line-height:20px;
+    text-align: center;
+}
+#conmment .conmment-contianer .conmment-content{
+    width: 470px;
+    float: right;
+    position: relative;
+    padding-bottom:11px;
+}
+#conmment{
+    display: none;
+}
+#room #container  ul.select{
+    display: block;
+}
+
+#conmment .conmment-contianer .conmment-content p{
+    line-height:20px;
+}
+#conmment .conmment-contianer .conmment-content img{
+    margin-top:4px;
+    width: 101px;
+    height: 65px;
+    margin-right:15px;
+}
+.conmment-contianer .conmment-content span{
+    color: #898787;
+    font-size:14px;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+.conmment-contianer .conmment-content #score img{
+    width: 20px;
+    height: 20px;
+    margin:0;
+    padding: 0;
+    float: left;
+}
+.conmment-contianer .conmment-content #score{
+    bottom:30px;
+}
+/****************右侧预定及推荐房源********************/
+#book_recommend{
+    width: 370px;
+    float: right;
+    /*margin-top:27px;*/
+
+}
+/*****************预定**********************/
+#book_recommend #book{
+    height: 450px;
+    background: #fff;
+    border: 1px solid #e0dfdf;
+}
+#book_recommend #book #book-title{
+    height: 60px;
+    background: #4b4c4e;
+    line-height:60px;
+    text-align: right;
+    font-size: 18px;
+    color: #b7b7b8;
+    padding-left: 35px;
+    padding-right:28px;
+}
+#book #book-title #price{
+    float: left;
+    
+}
+#book #book-title #price strong{
+    font-size:30px;
+    color: #fff;
+}
+#book-content{
+    /*height: 510px;*/
+    padding:0 24px;
+}
+#book-content #book-date{
+    height: 80px;
+    padding-top:20px;
+    color: #5a5b6f;
+    /*padding-bottom:25px;*/
+}
+#book-content #book-type{
+    height: 79px;
+    margin-top:15px;
+    color: #5a5b6f;
+
+}
+#book-content #book-collect{
+    height: 66px;
+}
+#book-date span{
+    display: inline-block;
+    width: 149px;
+    float: left;
+    color: #5a5b6f;
+    font-size:16px;
+}
+#book-date span:first-child{
+    margin-right: 20px;
+}
+#book-date input{
+    margin-top:10px;
+    width: 130px;
+    height:40px;
+    float: left;
+}
+#book-date input:first-child{
+    margin-right:10px;
+}
+#book-type select{
+    width: 322px;
+    font-size:16px;
+    color: #5a5b6f;
+    margin-top:10px;
+    height: 44px;
+}
+#book-collect span{
+    display: inline-block;
+    width:85px;
+    height: 66px;
+    line-height: 66px;
+    font-size:16px;
+    color: #5a5b6f;
+    -webkit-background-size:20px 20px;
+    background-size:20px 20px;
+    text-align: left;
+    float: left;
+}
+#book-collect span img{
+    float: left;
+    margin-top:23px;
+}
+.collect-icon{
+    cursor: pointer;
+
+    background: url('../img/collect.png') 40px no-repeat;
+}
+.share{
+    cursor: pointer;
+
+    background: url('../img/share.png') 40px no-repeat;
+}
+#book-collect .collect-score span{
+    float: left;
+    width:50px;
+
+}
+#book-collect .collect-score{
+    width:140px;
+}
+#book-refer{
+    width: 100%;
+    height: 50px;
+    background: #39c6a7;
+    color: #fff;
+    border:1px #1fa789 solid;
+    border-radius: 4px;
+    font-size:18px;
+    text-shadow: 1px 2px #0f856b;
+}
+span#book-refer{
+    display: inline-block;
+    text-align: center;
+    line-height:50px;
+    cursor: pointer;
+}
+#service{
+    background: #fff;
+    height: 58px;
+    width: 368px;
+    border: 1px #e0dfdf solid;
+    font-size:18px;
+    text-align: center;
+    line-height:58px;
+    margin-top:20px;
+}
+#service img{
+    margin-right:20px;
+    /*margin-top:5px;*/
+    margin-bottom:-5px;
+}
+.house{
+    background: #fff;
+    margin-top:20px;
+    height:285px;
+}
+#service a{
+    color:#e0dfdf;
+}
+#recommend{
+    padding-top:20px;
+
+}
+#recommend img{
+    width: 370px;
+    height: 225px;
+    float: left;
+}
+.brief{
+    height:60px;
+    border: 1px solid #e0dfdf;    background: #fff;
+    float: left;
+    width: 370px;
+
+}
+.brief p{
+    text-align: left;
+    font-size:12px;
+    color: #535858;
+    margin:10px 0;
+    width:370px;
+    line-height:20px;
+    height:20px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.brief p:first-child{
+    font-size:14px;
+    color: #213433;
+    text-align: right;
+    margin-bottom:0;
+}
+.home-title{
+    display: inline-block;
+    width:200px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    white-space:nowrap;
+}
+#recommend h2{
+    text-align: center;
+    color: #2f403c;
+    font-size:18px;
+}
+#recommend-more{
+    margin-top:10px;
+    color: #2f403c;
+    text-align: center;
+}

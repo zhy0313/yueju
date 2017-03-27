@@ -1,0 +1,167 @@
+/*通用样式start*/
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+ul,ol{
+	list-style: none;
+}
+/*通用样式end*/
+
+/*内容start*/
+body{
+	background: #eff3f5;
+}
+.wrapper{
+	width: 1170px;
+	margin: 0px auto;
+	position: relative;
+}
+.personal_data{
+	margin: 25px 0px;
+	height: 1330px;
+	/*background-color: gray;*/
+}
+input{
+	height: 43px;
+	border: 1px solid #c4c4c4;
+	font-size: 16px;
+	text-indent: 19px;
+}
+
+/*侧边栏样式start*/
+.side{
+	width: 370px;
+	height: 454px;
+	border: 0px;
+	display: inline-block;
+}
+/*侧边栏样式end*/
+
+/*账号信息和个人信息start*/
+.data_container{
+	width: 770px;
+	height: 1330px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.data_wrap{
+	width: 380px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*资料标题start*/
+.data_tit{
+	text-align: center;
+	color: #484e52;
+	font-size: 20px;
+	margin: 35px 0px 0px 0px;
+}
+/*资料标题end*/
+
+/*长的输入框start*/
+.input_l{
+	width: 378px;
+}
+/*长的输入框end*/
+
+.input_tele{
+	width: 230px;
+}
+
+/*更改手机号按钮start*/
+.change_tele{
+	width: 137px;
+	height: 45px;
+	font-size: 14px;
+	color: #39c6a7;
+	background: #fff;
+	border: 1px solid #39c6a7;
+	position: absolute;
+	right: 0px;
+}
+/*更改手机号按钮end*/
+
+/*上传照片start*/
+.photo{
+	position: absolute;
+	top: 0px;
+	right: -146px;
+}
+.photo div{
+	width: 99px;
+	height: 98px;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 11px;
+	background-image: url('../img/add_portrait.png');
+}
+.btn_photo{
+	background: #ffffff;
+	width: 99px;
+	height: 34px;
+	border: 1px solid #5be0a7;
+	color: #30bf82;
+}
+/*上传照片end*/
+
+/*资料项start*/
+.info_tit{
+	color: #a2a2a2;
+	font-size: 16px;
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	margin-top: 17px;
+}
+.info_name,.info_username{
+	margin-top: 0px;
+}
+/*资料项目end*/
+
+.sex_item{
+	width: 30px;
+	height: 12px;
+}
+
+.birth_y{
+	width: 157px;
+	float: left;
+	margin-right: 4px;
+}
+.birth_m{
+	width: 89px;
+	
+}
+.birth_d{
+	width: 88px;
+	float: right;
+	margin-left: 4px;
+}
+
+.city input,.hometown input{
+	width: 184px;
+}
+.input_gap{
+	margin-bottom: 12px;
+}
+
+/*提交按钮start*/
+.btn_submit{
+	height: 45px;
+	width: 380px;
+	font-size: 18px;
+	color: #ffffff;
+	background: #5be0a7;
+	border: 1px solid #e4f1ec;
+	border-radius: 3px;
+	letter-spacing: 20px;
+	margin-top: 30px;
+}
+/*提交按钮end*/
+
+/*账号信息和个人信息end*/
+
+/*内容end

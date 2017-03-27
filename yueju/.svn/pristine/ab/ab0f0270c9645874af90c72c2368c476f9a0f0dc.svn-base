@@ -1,0 +1,57 @@
+
+body{
+    background: #eff3f5;
+    margin:0 0;
+    padding:0 0;
+}
+.informaton{
+    height:2.7rem;
+    background: #fff;
+    margin-bottom:0.14rem;
+    border: 1px solid #e1e1e1;
+}
+#collect-information{
+}
+.informaton img{
+    height: 2.09rem;
+    width: 2.09rem;
+    float: left;
+    margin-right:0.28rem;
+    box-shadow: 0.01rem 0.01rem #e4f1ec;
+}
+.informaton .house{
+    float: left;
+    width:3.70rem;
+    height:2.09rem;
+    border-bottom:0.01rem solid #e1e1e1;
+}
+.informaton .house h4{
+    margin-top:0.25rem;
+    font-size:0.26rem;
+    color: #39454b;
+    margin-bottom:0.25rem;
+}
+.informaton .house p{
+    color: #39454b;
+    font-size:0.24rem;
+    margin-bottom:0.1rem;
+}
+.color{
+    color: #ff4081;
+}
+.informaton .cancel{
+    width: 1.44rem;
+    height: 0.43rem;
+    border: 0.01rem solid #b6bbb9;
+    color: #604d54;
+    font-size:0.22rem;
+    background: #fff;
+    margin-top:0.1rem;
+    right:0.35rem;
+    float: right;
+    /*box-shadow: 1px 1px   #b6bbb9;*/
+}
+.comment_selected{
+    background-color: #65CEA7;
+    color: #000000;
+}

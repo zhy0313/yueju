@@ -1,0 +1,522 @@
+/*css reset starting*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	border: none;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body {
+	font-family: Arial,"微软雅黑";
+	font-size: 12px;
+	height: 19.40rem;
+}
+.clear {
+	clear: both;
+	font-size: 0px;
+}
+/*css reset ending*/
+#gap{
+	height: 0.15rem;
+	background: #f2f2f2;
+}
+#order-suc{
+	height: 1.77rem;
+	/*background: red;*/
+	position: relative;
+}
+#order-suc .one{
+	position: absolute;
+	top: 0.42rem;
+	left: 2.27rem;
+	font-size: 0.26rem;
+	font-weight: bold;
+	color: #3b4654;
+}
+#order-suc .two{
+	position: absolute;
+	top: 0.92rem;
+	left: 1.1rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #36395c;
+}
+.line1{
+	height: 0.02rem;
+	width: 5.42rem;
+	background: #dddde0;
+	position: absolute;
+	top: 1.92rem;
+	left: 0.49rem;
+}
+.order-num{
+	position: absolute;
+	top: 2.2rem;
+	left: 0.55rem;
+	color:#36395c;
+	font-size: 0.24rem;
+}
+.line2{
+	height: 0.02rem;
+	width: 5.42rem;
+	background: #dddde0;
+	position: absolute;
+	top: 2.7rem;
+	left: 0.49rem;
+}
+#order-people{
+	position: absolute;
+	left: 2.54rem;
+	top: 2.98rem;
+	font-size: 0.26rem;
+	font-weight: bold;
+	color: #3b4654;
+}
+#peoplemes .item1{
+	position: absolute;
+	left: 0.56rem;
+	top: 3.48rem;
+	color: #081424;
+	font-size: 0.26rem;
+}
+#peoplemes .item2{
+	position: absolute;
+	left: 4.85rem;
+	top: 3.48rem;
+	color: #617083;
+	font-size: 0.26rem;
+}
+#peoplemes .item3{
+	position: absolute;
+	left: 0.56rem;
+	top: 4.05rem;
+	color: #081424;
+	font-size: 0.26rem;
+}
+#peoplemes .item4{
+	position: absolute;
+	left: 4.01rem;
+	top: 4.05rem;
+	color: #617083;
+	font-size: 0.26rem;
+	width: 1.9rem;
+	height: 0.26rem;
+	display: inline-block;	
+	text-align: center;
+}
+.line3{
+	height: 0.02rem;
+	width: 5.42rem;
+	background: #dddde0;
+	position: absolute;
+	top: 4.54rem;
+	left: 0.49rem;
+}
+#order-fee{
+	width: 5.33rem;
+	height: 6.96rem;
+	/*background: red;*/
+	position: absolute;
+	top: 4.80rem;
+	left: 0.56rem;
+}
+#order-fee .title{
+	position: absolute;
+	left: 1.85rem;
+	font-weight: bold;
+	font-size: 0.26rem;
+	color: #3b4654;
+}
+#order-fee .house{
+	position: absolute;
+	left: 0rem;
+	top: 0.5rem;
+	font-weight: bold;
+	font-size: 0.26rem;
+	color: #3b4654;
+}
+#order-fee .l1{
+	position: absolute;
+	left: 0rem;
+	top: 0.9rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .l2{
+	position: absolute;
+	left: 0rem;
+	top: 1.46rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .l3{
+	position: absolute;
+	left: 0rem;
+	top: 2.02rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .l4{
+	position: absolute;
+	left: 0rem;
+	top: 2.58rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .l5{
+	position: absolute;
+	left: 0rem;
+	top: 3.14rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#fee-acci{
+	position: absolute;
+	left: 0rem;
+	top: 3.70rem;
+	font-size: 0.26rem;
+	font-weight: bold;
+	color: #3b4654;
+}
+#order-fee .acci1{
+	position: absolute;
+	left: 0rem;
+	top: 4.24rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .acci2{
+	position: absolute;
+	left: 0rem;
+	top: 4.80rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .acci3{
+	position: absolute;
+	left: 0rem;
+	top: 5.37rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .acci4{
+	position: absolute;
+	left: 0rem;
+	top: 5.92rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .acci5{
+	position: absolute;
+	left: 0rem;
+	top: 6.48rem;
+	font-size: 0.26rem;
+	color: #081424;
+}
+#order-fee .r1{
+	position: absolute;
+	right: 0rem;
+	top: 0.94rem;
+	font-size: 0.26rem;
+	color: #617083;
+}
+#order-fee .r2{
+	position: absolute;
+	right: 0rem;
+	top: 1.5rem;
+	font-size: 0.26rem;
+	color: #617083;
+}
+#order-fee .r3{
+	position: absolute;
+	right: 0rem;
+	top: 2.09rem;
+	font-size: 0.26rem;
+	color: #617083;
+}
+#order-fee .r4{
+	position: absolute;
+	right: 0rem;
+	top: 2.67rem;
+	font-size: 0.26rem;
+	color: #617083;
+}
+#order-fee .r5{
+	position: absolute;
+	right: 0rem;
+	top: 3.26rem;
+	font-size: 0.26rem;
+	color: #617083;
+}
+#order-fee .accir1{
+	position: absolute;
+	right: 0rem;
+	top: 4.28rem;
+	font-size: 0.26rem;
+	color: #617083;	
+}
+#order-fee .accir2{
+	position: absolute;
+	right: 0rem;
+	top: 4.85rem;
+	font-size: 0.26rem;
+	color: #617083;	
+}
+#order-fee .accir3{
+	position: absolute;
+	right: 0rem;
+	top: 5.43rem;
+	font-size: 0.26rem;
+	color: #617083;	
+}
+#order-fee .accir4{
+	position: absolute;
+	right: 0rem;
+	top: 6.01rem;
+	font-size: 0.26rem;
+	color: #617083;	
+}
+#order-fee .accir5{
+	position: absolute;
+	right: 0rem;
+	top: 6.59rem;
+	font-size: 0.26rem;
+	color: #617083;	
+}
+
+.line4{
+	height: 0.02rem;
+	width: 5.42rem;
+	background: #dddde0;
+	position: absolute;
+	top: 11.76rem;
+	left: 0.49rem;
+}
+#on-money{
+	position: absolute;
+	right: 0.50rem;
+	top: 11.98rem;
+	font-size: 0.26rem;
+	color: #3b4654;	
+}
+#order-total{
+	position: absolute;
+	left: 2.92rem;
+	top: 12.46rem;
+	font-size: 0.26rem;
+	color: #3b4654;	
+}
+#total-yuan{
+	position: absolute;
+	/*left: 4.44rem;*/
+	right: 0.50rem;
+	top: 12.43rem;
+	font-size: 0.32rem;
+	color: #ff4081;	
+}
+.line5{
+	height: 0.02rem;
+	width: 5.42rem;
+	background: #dddde0;
+	position: absolute;
+	top: 12.97rem;
+	left: 0.49rem;
+}
+.live-mes{
+	position: absolute;
+	left: 2.67rem;
+	top: 13.26rem;
+	font-size: 0.26rem;
+	color: #3b4654;
+	font-weight: bold;	
+}
+.house-mes{
+	position: absolute;
+	left: 0.56rem;
+	top: 13.73rem;
+	font-size: 0.26rem;
+	color: #081424;	
+}
+.house-more{
+	position: absolute;
+	left: 2.98rem;
+	top: 13.73rem;
+	font-size: 0.26rem;
+	color: #363b3b;	
+}
+.house-mes1{
+	position: absolute;
+	left: 4.42rem;
+	top: 14.22rem;
+	font-size: 0.26rem;
+	color: #363b3b;		
+}
+.house-mes2{
+	position: absolute;
+	/*left: 5.41rem;*/
+	right: 0.5rem;
+	top: 14.22rem;
+	font-size: 0.26rem;
+	color: #363b3b;	
+}
+.live2{
+	position: absolute;
+	left: 0.56rem;
+	top: 14.85rem;
+	font-size: 0.26rem;
+	color: #081424;	
+}
+.live{
+	position: absolute;
+	right: 0.50rem;
+	top: 14.85rem;
+	font-size: 0.26rem;
+	color: #363b3b;
+}
+.leave{
+	position: absolute;
+	right: 0.50rem;
+	top: 15.30rem;
+	font-size: 0.26rem;
+	color: #363b3b;	
+}
+.liveinto{
+	position: absolute;
+	right: 0.50rem;
+	top: 15.72rem;
+	font-size: 0.26rem;
+	color: #363b3b;	
+}
+.line6{
+	height: 0.02rem;
+	width: 5.42rem;
+	background: #dddde0;
+	position: absolute;
+	top: 16.20rem;
+	left: 0.49rem;
+}
+#pay-way{
+	position: absolute;
+	left: 2.66rem;
+	top: 16.44rem;
+	font-size: 0.26rem;
+	color: #3b4654;
+	font-weight: bold;	
+}
+#alipay{
+	position: absolute;
+	left: 0.54rem;
+	top: 16.97rem;
+	font-size: 0.26rem;
+	color: #93939c;
+	border: #93939c 1px solid;
+	width: 2.5rem;
+	height: 0.74rem;
+	line-height: 0.74rem;
+	text-align: center;
+	border-radius: 10px;
+}
+#wechat{
+	position: absolute;
+	left: 3.36rem;
+	top: 16.97rem;
+	font-size: 0.26rem;
+	color: #ff4081;
+	border: #ff4081 1px solid;
+	width: 2.5rem;
+	height: 0.74rem;
+	line-height: 0.74rem;
+	text-align: center;
+	border-radius: 10px;
+}
+#is-pay{
+	position: absolute;
+	left: 0.50rem;
+	top: 17.99rem;
+	font-size: 0.26rem;
+	color: #fff;
+	width: 5.42rem;
+	height: 0.77rem;
+	line-height: 0.74rem;
+	text-align: center;
+	border-radius: 5px;
+	background: #ff4081;
+}
+#return{
+	position: absolute;
+	left: 0.52rem;
+	top: 19.00rem;
+	font-size: 0.22rem;
+	color: #93939c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

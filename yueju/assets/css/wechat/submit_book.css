@@ -1,0 +1,57 @@
+#book{
+    margin-top:0.14rem;
+    padding:0 0.5rem;
+    border-top:0.01rem solid #e1e1e1;
+}
+*{
+    margin:0 0;
+    padding:0 0;
+}
+body{
+    background: #f2f2f2;
+}
+#book h5{
+    font-size:0.26rem;
+    color: #3b4654;
+    text-align: center;
+    margin-top:0.3rem;
+    margin-bottom:0.28rem;
+}
+#book p{
+    clear: both;
+    height:0.3rem;
+    font-size:0.26rem;
+    margin-bottom:0.28rem;
+}
+#book #house-information span{
+    color: #081424;
+
+}
+#book p span{
+    float: right;
+    color: #081424;
+}
+#book p span:first-child{
+    float: left;
+}
+#book>div{
+    border-bottom:1px solid #e1e1e1;
+}
+#book p span:nth-child(2){
+    color: #617083;
+}
+#address,#phone-num{
+    width: 3.7rem;
+    height:0.3rem;
+}
+#book-submit{
+    width:5.7rem;
+    height:0.75rem;
+    border-radius: 10px;
+    font-size:0.24rem;
+    background: #ff4081;
+    border: 1px solid #ff4081;
+}
+#house-information input{
+    width:3.5rem;
+}

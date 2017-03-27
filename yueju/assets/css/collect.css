@@ -1,0 +1,92 @@
+#collect{
+    margin-top: 27px;
+}
+body{
+    background: #eff3f5;
+}
+#sidebar{
+    margin-top:0;
+}
+.informaton{
+    height: 102px;
+    width: 716px;
+    background: #fff;
+    padding-top:20px;
+    padding-left:29px;
+    padding-bottom:48px;
+    padding-right:34px;
+    margin-bottom:10px;
+}
+#collect-information{
+    margin-left:30px;
+    width: 770px;
+    float: right;
+}
+.informaton img{
+    height: 102px;
+    width: 174px;
+    float: left;
+    margin-right:20px;
+}
+.informaton .house{
+    float: left;
+    width:512px;
+    border-bottom:1px solid #e1e1e1;
+}
+.informaton .house h4{
+    font-size:16px;
+    color: #39454b;
+    margin-bottom:5px;
+}
+.informaton .house p{
+    color: #39454b;
+    font-size:14px;
+    margin-bottom:4px;
+}
+.informaton .cancel{
+    width: 124px;
+    height: 30px;
+    border: 1px solid #58d7a0;
+    color: #58d7a0;
+    font-size:12px;
+    background: #fff;
+    margin-top:10px;
+    float: right;
+    box-shadow: 1px 1px   #e4f1ec;
+}
+.comment_selected{
+    background-color: #65CEA7;
+    color: #000000;
+}
+.cancel_page ul{
+    list-style: none;
+    float: right;
+
+}
+.cancel_page li{
+    float: left;
+    width: 50px;
+    height: 35px;
+    border: 1px solid #ccc;
+    color: #65CEA7;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 3px;
+}
+.cancel_page li a{
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    width: 50px;
+    height: 35px;
+}
+.cancel_page li:hover{
+    background: #65CEA7;
+    color: #000;
+}
+.cancel_page li a:hover{
+    color: #000;
+}
+
+
+

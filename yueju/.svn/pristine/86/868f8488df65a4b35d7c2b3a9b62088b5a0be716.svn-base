@@ -1,0 +1,141 @@
+/*中间内容开始*/
+#container{
+    width: 100%;
+    height:1004px;
+    background-color: #eff3f5;
+}
+.wrapper{
+    height:1004px;
+}
+/*中间内容结束*/
+/*中间内容右侧开始*/
+#order-content{
+    width:770px;
+    height: 944px;
+    /*background-color: #fff;*/
+    float: right;
+    margin-top: 26px;
+}
+#order-ul li{
+    margin-bottom: 12px;
+    width: 770px;
+    height: 170px;
+    background-color: #fff;
+}
+#order-ul li img{
+    display: inline-block;
+    width: 174px;
+    height: 102px;
+    margin-top: 20px;
+    margin-left: 29px;
+    position: absolute;
+}
+#order-ul li .tit{
+    display: inline-block;
+    /*margin-top: 20px;*/
+    /*top: 20px;*/
+    position: relative;
+    left: 225px;
+    top: 18px;
+    color: #39454b;
+}
+#order-ul li .address{
+    width: 500px;
+    position: relative;
+    left: 225px;
+    top: 20px;
+    color: #39454b;
+}
+#order-ul li .mes{
+    width: 100px;
+    position: relative;
+    left: 225px;
+    top: 24px;
+    color: #39454b;
+}
+#order-ul li .time{
+    width: 600px;
+    position: relative;
+    left: 225px;
+    top: 30px;
+    color: #2eb57b;
+}
+#order-ul li .hh{
+    width: 488px;
+    position: relative;
+    left: 225px;
+    top: 40px;
+}
+#order-ul .cancel{
+    display: inline-block;
+    width: 123px;
+    height: 29px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #58d7a0;
+    position: relative;
+    left: 440px;
+    top: 44px;
+    /*text-align: center;*/
+    color: #58d7a0;
+    font-size: 12px;
+}
+#order-ul .cancel:hover{
+    background: #5ce1a8;
+    color: #ffffff;
+}
+#order-ul .cancel span{
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    left: 37px;
+    width: 48px;
+}
+#order-ul .alter{
+    display: inline-block;
+    width: 124px;
+    height: 30px;
+    cursor: pointer;
+    background: #5ce1a8;
+    position: relative;
+    left: 458px;
+    top: 44px;
+    /*text-align: center;*/
+    color: #ffffff;
+    font-size: 12px;
+}
+#order-ul .alter:hover{
+    background: #ffffff;
+    color: #58d7a0;
+    border: 1px solid #58d7a0;
+}
+#order-ul .alter span{
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    left: 37px;
+    width: 48px;
+}
+
+#pagination{
+    position: relative;
+    width: 300px;
+    height: 27px;
+    top: 465px;
+    left: 720px;
+}
+#pagination ul{
+    width: 300px;
+    height: 27px;
+}
+#pagination ul li{
+    width: 26px;
+    height: 26px;
+    border: 1px solid #c4c4c4;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    color: #4c4848;
+}
+/*中间内容右侧结束*/
+

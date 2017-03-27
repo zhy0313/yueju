@@ -1,0 +1,392 @@
+/**
+ * Created by 柳昊妍 on 2017/2/5.
+ */
+body {
+    font-family: Arial,"微软雅黑";
+    font-size: 12px;
+    color: #434343;
+}
+/***********************banner开始***************************************/
+#banner #container{
+    width:6.4rem;
+    height:3.62rem;
+    position: relative;
+}
+#banner #container #imgs{
+    width:6.4rem;
+    height:3.62rem;
+}
+#banner #container #imgs img{
+    width:6.4rem;
+    height:3.62rem;
+    display: none
+}
+#banner #container #imgs .selected{
+    display: block;
+}
+#banner #container #arrows #prev{
+    width:0.2rem;
+    height:0.3rem;
+    background: #ccc;
+    color:#fff;
+    position: absolute;
+    left:0.1rem;
+    top:1.61rem;
+    font-size:0.2rem;
+    text-align: center;
+    line-height:0.3rem;
+    display: none;
+    cursor: pointer;
+}
+#banner #container #arrows #next{
+    width:0.2rem;
+    height:0.3rem;
+    background: #ccc;
+    opacity: 0.8;
+    color:#fff;
+    position: absolute;
+    right:0.1rem;
+    top:1.61rem;
+    font-size:0.2rem;
+    text-align: center;
+    line-height:0.3rem;
+    display: none;
+    cursor: pointer;
+}
+#banner #container #tab{
+    position: absolute;
+    right:0.1rem;
+    bottom:0.1rem;
+    height:0.22rem;
+    text-align: center;
+    font-size:0.08rem;
+}
+#banner #container #tab li{
+    float: left;
+    width: 0.22rem;
+    height:0.22rem;
+    font-size:0.08rem;
+    background: #39c6a7;
+    color: #fff;
+    line-height: 0.22rem;
+    margin-right: 0.02rem;
+    cursor: pointer;
+}
+/***********************banner结束***************************************/
+/***********************search结束***************************************/
+#search{
+    width: 5.92rem;
+    height: 0.6rem;
+    position: relative;
+
+}
+#search #search-container{
+    width: 5.9rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.25rem;
+    /*background: #000;*/
+    border-radius: 0.05rem;
+}
+#search .address{
+    width: 1.9rem;
+    height: 0.6rem;
+    background: #ff4081;
+    color: #fff;
+    text-align: center;
+    line-height:0.6rem;
+    font-size: 0.2rem;
+    border-radius: 0.05rem;
+    float: left;
+
+}
+#search .caret{
+    background: url(../img/home/home_sprite.png) no-repeat 0 4.57rem;
+
+}
+#search .address ul{
+    position: relative;
+    z-index: 500;
+}
+#search .address ul li{
+    background: black;
+    color: white;
+    border-bottom: solid 1px white;
+    display: none;
+    opacity: 0.7;
+    z-index: 500;
+    font-size: 0.2rem;
+}
+#search .search-ipt{
+    width:3.02rem;
+    height:0.6rem;
+    float:left;
+    border:0;
+    text-indent: 0.2rem;
+}
+#search .search-icon{
+    float: left;
+    border:0.01rem solid #f42f72 ;
+    border-radius: 0.08rem;
+}
+#search #sou{
+    width:0.6rem;
+    height: 0.6rem;
+    background: url(../img/home/search.png) no-repeat 0.05rem 0.05rem;
+    float: left;
+    border: 0;
+}
+
+
+/***********************search结束***************************************/
+/***********************recommended-housing开始***************************************/
+#recommended-housing{
+    width: 6.4rem;
+    height: 11rem;
+    position: relative;
+    
+}
+#recommended-housing .housing-title{
+    position: absolute;
+    height: 1.3rem;
+    margin-top: 0.36rem;
+    margin-left: 2.1rem;
+}
+#recommended-housing .housing-title h3{
+    text-align: center;
+    color:#312b25;
+    font-size: 0.26rem;
+}
+#recommended-housing .housing-title h5{
+    margin-top: 0.15rem;
+    color: #a7a7a6;
+    font-size: 0.18rem;
+}
+#recommended-housing .house-detail{
+    height: 10.06rem;
+    position: absolute;
+    top:1.3rem;
+    left:0;
+}
+#recommended-housing .house-detail .house-detail1{
+    width:6.4rem;
+    height: 5.14rem;
+    border-bottom: 0.01rem solid #e1e1e1;
+    margin-bottom: 0.15rem;
+}
+#recommended-housing .house-detail .house-detail1 img{
+    width: 6.4rem;
+    height:3.8rem;
+    float: left;
+}
+#recommended-housing .house-detail .house-detail1 h4{
+    float: left;
+    margin-left: 0.45rem;
+    text-indent: 0.02rem;
+    font-size:0.25rem ;
+    color: #213433;
+    margin-top: 0.2rem;
+}
+#recommended-housing .house-detail .house-detail1 h5{
+    float: right;
+    margin-right:0.45rem;
+    color:#b4ded9;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+}
+#recommended-housing .house-detail .house-detail1 h6{
+    clear: both;
+    margin-left: 0.45rem;
+    font-size: 0.25rem;
+    color: #bbbdbd;
+    margin-top: 0.14rem;
+}
+
+/***********************recommended-housing结束***************************************/
+/***********************security开始***************************************/
+#security{
+     width:6.4rem;
+    height: 2.92rem;
+    margin-top: 0.9rem;
+ }
+#security .we-wrapper{
+    width:5.9rem ;
+    height:2.92rem;
+    position: relative;
+    /*left:0.28rem;*/
+    margin: 0 auto;
+
+}
+#security .security-title{
+    height:1.26rem;
+    position: absolute;
+    top: 0.26rem;
+    left:1.7rem;
+}
+#security .security-title h3{
+    color: #312b25;
+    font-size: 0.26rem;
+    margin-bottom: 0.2rem;
+
+}
+#security .security-title h5{
+    color: #b0b0af;
+    font-size: 0.18rem;
+    text-align: center;
+}
+#security .security-content{
+    position: absolute;
+    top:1.26rem;
+    height:1.14rem;
+}
+#security .security-content .security1{
+    float: left;
+    width: 1.16rem;
+    height: 1.14rem;
+    border-right:0.01rem solid #dde2e6;
+    position: relative;
+}
+#security .security-content .security1 .security1-pic{
+    width: 0.42rem;
+    height: 0.42rem;
+}
+#security .security-content .security1 .security1-pic img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+
+}
+#security .security-content .security1 span{
+    position: absolute;
+    font-size: 0.18rem;
+    color: #45413d;
+    text-align: center;
+    width: 1.16rem;
+    left: 50%;
+    margin-left: -0.58rem;
+    height:0.68rem;
+    line-height: 0.68rem;
+    top: 0.6rem;
+}
+#security .security-content .security2{
+    float: left;
+    width: 1.16rem;
+    height: 1.14rem;
+    border-right: 1px solid #dde2e6;
+    position: relative;
+}
+#security .security-content .security2 .security2-pic{
+    width: 0.42rem;
+    height: 0.42rem;
+
+}
+#security .security-content .security2 .security2-pic img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+}
+#security .security-content .security2 span{
+    position: absolute;
+    font-size: 0.18rem;
+    color: #45413d;
+    text-align: center;
+    width: 1.16rem;
+    left: 50%;
+    margin-left: -0.58rem;
+    height:0.68rem;
+    line-height: 0.68rem;
+    top: 0.6rem;
+}
+#security .security-content .security3{
+    float: left;
+    width: 1.16rem;
+    height: 1.14rem;
+    border-right: 1px solid #dde2e6;
+    position: relative;
+}
+#security .security-content .security3 .security3-pic{
+    width: 0.42rem;
+    height: 0.42rem;
+
+}
+#security .security-content .security3 .security3-pic img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+}
+#security .security-content .security3 span{
+    position: absolute;
+    font-size: 0.18rem;
+    color: #45413d;
+    text-align: center;
+    width: 1.16rem;
+    left: 50%;
+    margin-left: -0.58rem;
+    height:0.68rem;
+    line-height: 0.68rem;
+    top: 0.6rem;
+}
+#security .security-content .security4{
+    float: left;
+    width: 1.16rem;
+    height: 1.14rem;
+    border-right: 1px solid #dde2e6;
+    position: relative;
+}
+#security .security-content .security4 .security4-pic{
+    width: 0.42rem;
+    height: 0.42rem;
+
+}
+#security .security-content .security4 .security4-pic img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+}
+#security .security-content .security4 span{
+    position: absolute;
+    font-size: 0.18rem;
+    color: #45413d;
+    text-align: center;
+    width: 1.16rem;
+    left: 50%;
+    margin-left: -0.58rem;
+    height:0.68rem;
+    line-height: 0.68rem;
+    top: 0.6rem;
+}
+#security .security-content .security5{
+    float: left;
+    width: 1.16rem;
+    height: 1.14rem;
+    position: relative;
+}
+#security .security-content .security5 .security5-pic{
+    width: 0.42rem;
+    height: 0.42rem;
+
+}
+#security .security-content .security5 .security5-pic img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+}
+#security .security-content .security5 span{
+    position: absolute;
+    font-size: 0.18rem;
+    color: #45413d;
+    text-align: center;
+    width: 1.16rem;
+    left: 50%;
+    margin-left: -0.58rem;
+    height:0.68rem;
+    line-height: 0.68rem;
+    top: 0.6rem;
+}
+/***********************security结束***************************************/

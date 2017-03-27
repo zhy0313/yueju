@@ -1,0 +1,170 @@
+#book #book-mune {
+    border: 1px #dde2e6 solid;
+    padding-left: 57px;
+    margin-top: 15px;
+    padding-right: 62px;
+    height: 70px;
+    background: #fff url("../img/book_mune.png") 57px -10px no-repeat;
+}
+body{
+    background: #f0f0f0;
+    color: #7f8187;
+}
+#book #book-mune span{
+    margin-top:45px;
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+#book #book-mune span:first-child{
+    color: #f05b72;
+}
+#book #book-mune span:first-child{
+    padding-left:35px;
+}
+#book #book-mune span:nth-child(4){
+    width:130px;
+    text-align: center;
+}
+#book #book-mune span:nth-child(2){
+    width:250px;
+}
+#check-in{
+    border: 1px #dde2e6 solid;
+    padding-left:112px;
+    padding-right:62px;
+    background: #fff;
+    margin-top:15px;
+    padding-bottom:10px;
+}
+#check-in h3{
+    padding-top:25px;
+    color: #363b3b;
+}
+#check-in p{
+    color: #626488;
+    font-size:16px;
+    margin:17px 0;
+}
+#check-in p span{
+    display: inline-block;
+    margin-left:25px;
+    font-size:16px;
+    color: #363b3b;
+}
+#check-in p span input {
+    margin-right:20px;
+    height: 45px;
+    width: 240px;
+}
+#user-information{
+    height: 105px;
+    background: #fff;
+    border: 1px #dde2e6 solid;
+    padding-left:112px;
+    padding-right:62px;
+    margin-top:15px;
+}
+#user-information #user-title{
+    font-size:20px;
+    color: #363b3b;
+    margin:22px 0;
+}
+#user-information p span:nth-child(2n+1){
+    margin-right:55px;
+}
+#user-information p span:nth-child(2n){
+    margin-right: 180px;
+    color: #36395c;
+
+}
+#book-information{
+    background: #fff;
+    border: 1px #dde2e6 solid;
+    padding-left:112px;
+    padding-right:110px;
+    margin-top:15px;
+}
+#book-information table td{
+    width:237.5px;
+    text-align: center;
+    height: 50px;
+    color: #36395c;
+    font-size:16px;
+}
+#book-information table{
+    border:1px #dde2e6 solid;
+    margin-bottom:20px;
+}
+#book-information table th{
+    border-bottom:1px #dde2e6 solid;
+    height: 50px;
+    font-size:16px;
+
+}
+#book-information h3{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #363b3b;
+}
+#book-information h4{
+    text-align: right;
+    color: #363b3b;
+    margin-bottom: 25px;
+}
+#book-information .rent{
+    color: #7f8187;
+    margin-bottom:20px;
+}
+#book-information h4 span{
+    color: #f05b72;
+}
+#book-information h4 span strong{
+    font-size: 28px;
+}
+#invoice{
+    background: #fff;
+    padding-left:112px;
+    padding-right:110px;
+    margin-top:15px;
+}
+#invoice h4{
+    margin-top:20px;
+    margin-bottom:25px;
+    font-size:26px;
+    color: #3b4654;
+}
+#invoice p{
+    margin-bottom:10px;
+}
+#invoice p span{
+    margin-right:20px;
+    font-size:16px;
+    color: #5d5f7f;
+    float: left;
+}
+#invoice .address{
+    width: 460px;
+    height: 46px;
+}
+#invoice .phone_num{
+    height: 46px;
+    width: 221px;
+}
+#invoice div>span:nth-child(2){
+    float: right;
+}
+#invo{
+    display: none;
+}
+#book-sub input{
+    width: 179px;
+    border-radius: 6px;
+    background: #f05b72;
+    border: #de4d63 1px solid;
+    height: 47px;
+    float: right;
+    color: #fff;
+    margin-bottom:19px;
+    text-shadow: #ce344c 1px 1px;
+}
