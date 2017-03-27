@@ -1,0 +1,152 @@
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/style-responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="js/right-dialog/jquery-right-dialog-1.1.css">
+<section>
+    <!-- left side start-->
+    <div class="left-side sticky-left-side">
+
+        <!--logo and iconic logo start-->
+        <div class="logo">
+            <a href="javascript:;"><img src="images/logo.png" alt=""></a>
+        </div>
+
+        <div class="logo-icon text-center">
+            <a href="javascript:;"><img src="images/logo_icon.png" alt=""></a>
+        </div>
+        <!--logo and iconic logo end-->
+
+
+        <div class="left-side-inner">
+            <!--sidebar nav start-->
+            <ul class="nav nav-pills nav-stacked custom-nav">
+                <li><a href="admin/house"><i class="fa fa-home"></i> <span>房源管理</span></a></li>
+                <li ><a href="user/userall"><i class="fa fa-laptop"></i> <span>用户管理</span></a></li>
+                <li><a href=""><i class="fa fa-book"></i> <span>订单管理</span></a></li>
+                <li><a href=""><i class="fa fa-cogs"></i> <span>收藏管理</span></a></li>
+                <li><a href="fontawesome.html"><i class="fa fa-bullhorn"></i> <span>发票管理</span></a></li>
+                <li><a href=""><i class="fa fa-envelope"></i> <span>订单处理</span></a></li>
+                <li><a href="comment/paging"><i class="fa fa-tasks"></i> <span>评论管理</span></a></li>
+                <li><a href="message/index"><i class="fa fa-bar-chart-o"></i> <span>留言管理</span></a></li>
+                <li><a href="#" class="sign"><i class="fa fa-th-list"></i> <span>管理员管理</span></a></li>
+
+            </ul>
+            <!--sidebar nav end-->
+
+        </div>
+    </div>
+    <!-- left side end-->
+
+    <!-- main content start-->
+    <div class="main-content" >
+
+        <!-- header section start-->
+        <div class="header-section">
+
+            <!--toggle button start-->
+            <a class="toggle-btn"><i class="fa fa-bars"></i></a>
+            <!--toggle button end-->
+
+<!--从session中获取数据并输出-->
+
+            <!--notification menu start -->
+            <div class="menu-right">
+                <?php
+                if ($this->session->admin) {
+                    $id = $this->session->admin->admin_id;
+                    $voice = $this->session->voice;
+                    $manage= $this->session->manage;
+                    $invoice = $this->session->invoice;
+                    $sum=$manage+$invoice+$voice;
+                    $name = $this->session->admin->name;
+                    $img = $this->session->admin->img_src;
+                    echo '<ul class="notification-menu">
+                    <li>
+                        <a href="#" class="btn btn-default dropdown-toggle info-number" data-toggle="dropdown">
+                            <i class="fa fa-tasks ">&nbsp;&nbsp;订单信息</i>
+                            <span class="badge"> '.$sum.'
+                            </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-head pull-right">
+                            <h3 class="title">订单情况</h3>
+                            <ul class="dropdown-list user-list">
+                                <li class="new">
+                                    <a href="javascript:;">查询订单</a>
+                                </li>
+                                <li class="new">
+                                    <a href="javascript:;">取消申请</a>
+                                    <span class="badge">'.$manage.'</span>
+                                </li>
+                                <li class="new">
+                                    <a href="javascript:;">发票邮寄</a>
+                                    <span class="badge">'.$invoice.'</span>
+                                </li>
+                                <li class="new">
+                                    <a href="javascript:;">发票处理</a>
+                                    <span class="badge">'.$voice.'</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="btn btn-default dropdown-toggle info-number" data-toggle="dropdown">
+                            <i class="fa fa-envelope-o">&nbsp;&nbsp;留言评论</i>
+                            <!-- <span class="badge">5</span> -->
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-head pull-right">
+                            <h5 class="title">用户反馈及评论</h5>
+                            <ul class="dropdown-list normal-list">
+                                <li class="new">
+                                    <a href="javascript:;">房源评论</a>
+                                </li>
+                                <li>
+                                    <a href="message/index">用户反馈</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="btn btn-default dropdown-toggle info-number" data-toggle="dropdown">
+                            <i class="fa fa-bell-o">&nbsp;&nbsp;在线消息</i>
+                            <span class="badge">4</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <img src="'.$img.'" alt="" />'.$name.'
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                            <li><a href="javascript:;"><i class="fa fa-sign-out"></i> 管理员管理</a></li>
+                            <li><a href="javascript:;" class="admin-update" admin-id = '.$id.'><i class="fa fa-user"></i>更改资料密码</a></li>
+                            <!-- form表单提交，方法待定，控制器方法为do_admin_update，数据库读取内容然后更改插入 -->
+                            <li><a href="admin/do_exit"><i class="fa fa-cog"></i>  退出</a></li>
+                        </ul>
+                    </li>
+
+                </ul>';
+                }else{
+                    echo "string";
+                    redirect("admin/login");
+                }
+                $this_uri = $this->uri->uri_string();
+                $this->session->set_userdata('uri',$this_uri);
+                ?>
+            </div>
+            <!--notification menu end -->
+
+        </div>
+        <!-- header section end-->
+
+        <!-- Placed js at the end of the document so the pages load faster -->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/jquery.nicescroll.js"></script>
+
+
+        <!--common scripts for all pages-->
+        <script src="js/scripts.js"></script>
+        <script src="js/common.js"></script>
+        <script type="text/javascript" src="js/right-dialog/jquery-right-dialog-1.1.js"></script>

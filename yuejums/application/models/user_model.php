@@ -1,0 +1,59 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+class User_model extends CI_Model{
+    
+    public function getall(){
+        $this->db->order_by('addtime','desc');
+        $this->db->limit(6);
+        return $this->db->get("t_user")->result();
+    }
+    public function del_user($id){
+        $query=$this->db->delete('t_user',array(
+            'user_id'=>$id
+        ));
+        return $query;
+
+    }
+    public function update_user($id){
+        $query=$this->db->get_where('t_user',array('user_id'=>$id));
+        return $query->row();
+    }
+    public function update_id(){
+        $arr=array(
+            'username'=>$newusername,
+            'password'=>$password,
+            'email'=>$email,
+            'tel'=>$tel
+        );
+        $this->db->where('user_id',$hid);
+        return $this->db->update('t_user',$arr);
+    }
+ public function user_message($id){
+     $this->db->order_by('addtime','desc');
+    $query=$this->db->get_where('t_user',array('user_id'=>$id));
+    return $query->row();
+}
+ public function get_by_page($user_name,$limit=6,$offset=0){
+         if($user_name){
+            $this->db->like('t_user.username',$user_name);
+            }
+           $this->db->order_by('addtime','desc');
+           $this->db->limit($limit,$offset);
+           $query=$this->db->get('t_user')->result();
+           return $query;
+    }
+     public function get_all_count($user_name){
+        $this->db->select('*');
+        $this->db->from('t_user');
+        if($user_name){
+            $this->db->like('t_user.username',$user_name);
+        }
+        return $this->db->count_all_results();
+    }
+    public function batch_delete($id){
+        $this->db->get('t_user');
+        $this->db->where_in('user_id',$id);
+        $query=$this->db->delete('t_user');
+        return $query;
+    }
+}
+?>

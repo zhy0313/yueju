@@ -1,0 +1,256 @@
+/**/
+html,body{
+	position: relative;
+}
+.cancel_more{
+    cursor: pointer;
+}
+.mask_font{
+	color: #65CEA7;
+	font-size: 20px;
+}
+.mask_title{
+	color: #fff;
+	font-size: 21px;
+	font-weight: bold;
+}
+#cancel_mask{
+	padding-top: 30px;
+	padding-left: 0px;
+	width: 700px;
+	height: 680px;
+	background: #000000;
+	position: absolute;
+	right: -700px;
+	top: 0px;
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+    z-index: 2;
+    transition: right 0.5s ease 0s;
+}
+#cancel_mask div{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+#cancel_mask div a:hover{
+	color: #ff6;
+}
+#cancel_result{
+
+}
+#cancel_mask div .cancel_refuse{
+	color: #65CEA7;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 20px;
+	text-decoration: none;
+}
+#cancel_mask div .cancel_agree{
+	color: #65CEA7;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 20px;
+	text-decoration: none;
+}
+#cancel_mask div ul{
+	position: fixed;
+	bottom: 100px;
+	list-style: none;
+}
+#cancel_mask div ul li{
+	float: left;
+}
+.cancel_cata{
+	display: inline-block;
+	position: absolute;
+	left: 50px;
+	margin-top: 12px;
+}
+.cancel_cata a{
+	font-size: 16px;
+/*	background: ;*/
+	text-decoration: none;	
+}
+/*.cancel_cata li{
+	float: left;
+	list-style: none;
+}*/
+#cancel_table{
+	margin-top: 60px;
+}
+.cancel_search{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	background: #f9f9f9;
+	color: #65CEA7;
+/*	margin-left: 20px;
+	margin-top: 9px;*/
+	position: absolute;
+	right: 30px;
+	top: 8px;
+}
+.cancel_inputid{
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	right: 100px; 
+	top: 8px;
+}
+.cancel_inputname{
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	right: 320px;
+	top: 8px; 
+}
+.cancel_inputtitle{
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	right: 540px; 
+	top: 8px;
+}
+.cancel_form{
+	position: absolute;
+	/*right: 300px;
+	top: 80px;*/
+	width: 380px;
+	right: 30px;
+}
+.cancel_active{
+	/*设置中间样式*/
+}
+.cancel_prev{
+	width: 50px;
+}
+.cancel_page ul{
+	list-style: none;
+	float: right;
+
+}
+.cancel_page li{
+	float: left;
+	width: 50px;
+	height: 35px;
+	border: 1px solid #ccc;
+	color: #65CEA7;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 3px;
+}
+.cancel_page li a{
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	width: 50px;
+	height: 35px;
+}
+.cancel_page li:hover{
+	background: #65CEA7;
+	color: #000;
+}
+.cancel_page li a:hover{
+	color: #000;
+}
+.cancel_selected{
+	background: #65CEA7;
+	color: #000; 
+}
+.cancel_manage{
+	color: red;
+}
+.cancel_button{
+	float: left;
+	/*position: absolute;
+	left: 30px;
+	top: 280px;*/
+	margin: 5px 5px 5px 0px;
+	width: 50px;
+	height: 30px;
+	background: #fff; 
+	color:#65CEA7;
+}
+.cancel_selecteda{
+/*	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-bottom: #65CEA7 solid 1px;*/
+	/*background: red;*/
+}
+.cancel_delete a:hover{
+	color:blue;
+}
+.cancel_delete a{
+	color:#65CEA7;
+}
+.cancel_delete a{
+	/*text-decoration:none;*/
+}
+.cancel_ajaxreason{
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 20px;
+	width: 550px;
+	height: 100px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.cancel_ajaxid{
+	font-size: 23px;
+	text-align: center;
+	color: red;
+}
+.cancel_ajaxtime{
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.cancel_ajaxusername{
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.cancel_ajaxcity{
+	font-size: 20px;
+}
+.cancel_ajaxstreet{
+	font-size: 20px;
+}
+.cancel_ajaxroad{
+	font-size: 20px;
+}
+.cancel_ajaxtitle{
+	font-size: 20px;
+}
+.cancel_aj{
+	text-decoration: none;
+	font-size: 28px;
+	position: absolute;
+	bottom: 50px;
+}
+.cancel_aj:hover{
+	color: red;
+	text-decoration: none;
+}
+.cancel_ajaxa1{
+	left: 250px;
+	cursor: pointer;
+}
+.cancel_ajax11{
+	color: #65CEA7;
+}
+.cancel_ajaxa2{
+	left: 350px;
+	cursor: pointer;
+}
+.cancel_ajaxag{
+	color: red;
+	left: 300px;
+}
+.cancel_ajaxre{
+	color: red;
+	left: 300px;
+}

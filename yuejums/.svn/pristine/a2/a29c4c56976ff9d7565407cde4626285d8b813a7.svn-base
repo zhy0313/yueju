@@ -1,0 +1,53 @@
+	a{
+		list-style: none;
+		text-decoration: none;
+	}
+	.right-dialog-title .fa.fa-times{
+		font-size: 18px;
+		position: absolute;
+		top:25px;
+		right:15px;
+		cursor: pointer;
+	}
+	.right-dialog-mask{
+		position: absolute;
+		left: 0;
+		top: 0;
+		right:0;
+		bottom: 0;
+		background: #7a7676;
+		opacity: 0.4;
+		filter: alpha(opacity=40);
+		z-index: 999;
+	}
+	.right-dialog-container{
+		top: 0;
+		bottom: 0;
+		width: 50%;
+		background: #fff;
+		position: absolute;
+		right: -50%;
+		z-index: 1000;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+	.right-dialog-title h1{
+		text-align: center;
+		margin: 20px 0 10px 0;
+		color: #65cea7;
+	}
+	.right-dialog-close1{
+		font-size: 18px;
+		position: absolute;
+		left: 20px;
+		top: 35px;
+		cursor: pointer;
+		color:#ccc;
+	}
+	.right-dialog-close1:hover{
+		color:#65cea7;
+	}
+	.right-dialog-content{
+		padding: 20px;
+		height: 1000px;
+	}

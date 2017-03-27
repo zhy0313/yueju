@@ -1,0 +1,175 @@
+.list-group .list-group-item .score{
+    padding: 50px;
+
+}
+.list-group-item .score strong{
+    color: #1CAF9A;
+}
+.list-group-item  #delete_com {
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: indianred;
+}
+.list-group-item .content_com{
+    display: inline-block;
+    width: 80%;
+    height:20px;
+    margin: auto;
+    text-overflow:ellipsis ;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list-group-item #comment_img{
+    width: 80%;
+}
+.list-group-item #comment_img img{
+    display: inline-block;
+    margin-right: 10px;
+}
+.list-group-item  #comment-date{
+    display: block;
+    margin-left: 5px;
+}
+#more{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+#btn-more{
+    border: 0;
+    width: 200px;
+    height: 30px;
+    background-color: #CCCCCC;
+}
+#page-num{
+    display: inline-block;
+    float: right;
+}
+#number{
+    display:inline-block;
+    float: left;
+}
+.comment_selected{
+    background-color: #65CEA7;
+    color: #000000;
+}
+.cancel_page ul{
+    list-style: none;
+    float: right;
+
+}
+.cancel_page li{
+    float: left;
+    width: 50px;
+    height: 35px;
+    border: 1px solid #ccc;
+    color: #65CEA7;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 3px;
+}
+.cancel_page li a{
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    width: 50px;
+    height: 35px;
+}
+.cancel_page li:hover{
+    background: #65CEA7;
+    color: #000;
+}
+.cancel_page li a:hover{
+    color: #000;
+}
+.comment-lable{
+    color: #1fb5ac;
+    font-size: medium;
+}
+.search-control{
+    box-shadow: none;
+    /*float: left;*/
+    font-size: 14px;
+    height: 35px;
+    margin:7px 0 0 10px;
+    padding: 10px;
+    width: 220px;
+    display: block;
+    line-height: 1.42857143;
+    color: #555;
+    background:#fff;
+    background-image: none;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+#houseput{
+    position: relative;
+    float: left;
+    bottom: 8px;
+    margin-right: 5px;
+}
+#nameput{
+    font-size: 14px;
+    height: 35px;
+    margin:7px 0 0 10px;
+    padding: 10px;
+    width: 220px;
+    display: inline-block;
+    line-height: 1.42857143;
+    color: #555;
+    background:#fff;
+    background-image: none;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    bottom:8px;
+    position: relative;
+    margin-right: 5px;
+}
+.search-button{
+    width: 60px;
+    height: 32px;
+    background: #374152;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #fff;
+    border:0;
+}
+#housebtn{
+    float: right;
+    position: relative;
+    right: 1px;
+}
+#img-show{
+    width: 85%;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
